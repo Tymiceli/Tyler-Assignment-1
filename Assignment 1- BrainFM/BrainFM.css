@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+	background-color: #4915f8;
+	font-family: Arial;
+	flex-shrink: 1;
+}
+.section-1 {
+	display: flex;
+}
+.section-2 {
+	flex-direction: column;
+	color: white;
+	text-align: left;
+	width: 900px;
+	margin-left: 30px;
+	margin-right: 0px;
+
+}
+
+.section-2c {
+	opacity: 0.75;
+}
+.section-3 {
+	align-items: right;
+}
+
+.section-4 {
+	text-align: center;
+	padding: 150px;
+	color: white;
+	font-size: 20px;
+	opacity: 0.95;
+}
+.section-5 {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.section-5a {
+	display: flex;
+	flex-direction: column;
+	width: 550px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	justify-content: center;
+	min-width: 600px;
+	text-align: left;
+	
+}
+img.brainwave_img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 55px;
+	width: 673px;
+}
+.section-5b {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	justify-content: center;
+	text-align: left;
+	min-width: 600px;
+	padding-left: 100px;
+}
+
+img.brainscan_img {
+	display: block;
+	margin: 0 auto;
+	width: 650px;
+	margin-top: 50px;
+/*	padding-top: 34px;
+	padding-bottom: 34px; */
+}
+
+input[type='button'] {
+	padding: 15px 30px;
+	font-weight: bold;
+	border: 0px;
+	border-radius: 45px;
+	background-color: #eb7c3b;
+	color: white;
+	margin-top: 7px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #999999;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
